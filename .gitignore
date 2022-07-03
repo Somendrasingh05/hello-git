@@ -1,1 +1,10 @@
-3.txt
+
+# if we have to ignore some files we just have to write files name in this folder but we have to make sure that file is untracked for e.g
+ 
+# suppose we have to ignore all files with same extensions then we have to write
+*.txt
+#* means all
+#it means it will ignore all files with extension .txt
+#and suppose me dont have to ignore some specific file with same extension then we have to write
+#!3.txt
+#(exclamatory mark = not) and then file name
