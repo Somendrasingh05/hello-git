@@ -60,13 +60,34 @@
 // var a="abcd";
 // console.log(a);
 
-var n=100;
-console.log(n);
+var num=10;
+// console.log(n);
 
 // var me redeclaration allowed tha is se apan to ye pata nahi vhalega ki apan koi cheej pehle declare kar chuke he 
 // and redeclaration is not a good practice 
 // reinitialization is okay
 
+// 2nd problem with var keyword
+// var keyword is function scoped incase of function else it is global scoped
+// let keyword is block scoped
+
+// space between two curly braces is known as block
+// {
+//     this place is a block
+// }
+
+// like we can access let only in bracket but we can acess var outside bracket also
+
+let j=20;
+for (let k=0;k<num;k++){
+    if(k%2==0){
+        console.log(k);
+    }
+//   let d=80;
+}
+console.log("value of k "+k);
+console.log(j);
+// console.log(d);
 // overcome karne ke liye
 
 //let keyword is used
@@ -96,6 +117,6 @@ var num=10;
  // na hi redclare na reinitialize
 //  const a=5;       // SyntaxError: Identifier 'a' has already been declared
 
-a=3;   //TypeError: Assignment to constant variable.
+// a=3;   //TypeError: Assignment to constant variable.
 console.log("hey bro");
 // JS line by line chalti he and error milne pe code vahi ruk jata he aage nahi badhta
