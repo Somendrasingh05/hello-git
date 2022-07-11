@@ -12,7 +12,7 @@
 // a="hello";
 // console.log(a);
 // console.log(typeof a);  
-// // typeof operator -> it tells us the type od data stored in variable
+// // typeof operator -> it tells us the type of data stored in variable
 // a= true;
 // console.log(a);
 // console.log(typeof a);
@@ -76,7 +76,7 @@ var num=10;
 //     this place is a block
 // }
 
-// like we can access let only in bracket but we can acess var outside bracket also
+// like we can access let only in bracket if we have declared it in bracket but we can acess var outside bracket also
 
 let j=20;
 for (let k=0;k<num;k++){
@@ -85,7 +85,7 @@ for (let k=0;k<num;k++){
     }
 //   let d=80;
 }
-console.log("value of k "+k);
+// console.log("value of k "+k);
 console.log(j);
 // console.log(d);
 // overcome karne ke liye
@@ -120,3 +120,5 @@ var num=10;
 // a=3;   //TypeError: Assignment to constant variable.
 console.log("hey bro");
 // JS line by line chalti he and error milne pe code vahi ruk jata he aage nahi badhta
+var x="i am mad";
+console.log(typeof x);
