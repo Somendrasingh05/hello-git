@@ -43,13 +43,19 @@ let returnedFunc = calculator('add', 2, 3);
 // let variable_name = function () {
 //     // do something
 // }
-// name of variable is used to invoke the funciton
+// name of variable is ised to invoke the funciton
 // variable_name();
 
 let sayHi=function () {
     console.log("hello guys is am function expression");
 }
 
-console.log("line54\n" + sayHi);
-sayHi();
-//abcd();// error abcd is not defined
+let sayBye = function () {
+  console.log("bye guys");
+};
+
+console.log("line 57\n" + sayHi);
+// sayHi();
+console.log("line 59\n" + sayBye);
+// sayBye();
+//abcd(); // error abcd is not defined
