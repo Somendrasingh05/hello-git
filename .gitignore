@@ -6,3 +6,6 @@ to ignore all files with same extensions we use
 #by star we mean all and a . and file extension which we want to ignore
 
 first we have to untrack a tracked file only then we will bw able to ignore that file
+
+to ignore a file -> 
+git rm --cached <filename>
