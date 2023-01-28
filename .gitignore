@@ -1,0 +1,8 @@
+to ignore a file write its name in gitignore file
+4.txt
+
+to ignore all files with same extensions we use 
+*.txt
+#by star we mean all and a . and file extension which we want to ignore
+
+first we have to untrack a tracked file only then we will bw able to ignore that file
